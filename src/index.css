@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100;1,200;1,300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tick{
+	height: 562px;
+}
+
+.sc2::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+.sc2::-webkit-scrollbar-track {
+    background-color: rgba(255, 255, 255, 0.647);
+    border-radius: 10px;
+}
+.sc2::-webkit-scrollbar-thumb {
+    background-color: #34D399;
+    border-radius: 10px;
+}
